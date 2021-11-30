@@ -1,0 +1,27 @@
+.container{
+    font-family: Verdana;
+    font-weight: 500;
+    line-height: 1.6em;
+}
+
+.degrees{
+    display: flex;
+    margin-top: 20px;
+}
+
+.degree{
+    border-radius: 8px;
+    height: 90px;
+    margin-left: 2%;
+    width: 46%;
+    background-color: rgb(59, 149, 190);
+    display: flex;
+}
+
+.text{
+    margin: auto;
+    color:white;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;  
+}
