@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GradComponent } from './grad/grad.component';
-import { HomeComponent } from './home/home.component';
-import { UndergradComponent } from './undergrad/undergrad.component';
+import { GradComponent } from './components/grad/grad.component';
+import { HomeComponent } from './components/home/home.component';
+import { UndergradComponent } from './components/undergrad/undergrad.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},

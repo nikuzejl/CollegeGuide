@@ -1,0 +1,25 @@
+.container{
+    margin: 0%;
+    background-color: black;
+    color:white;
+}
+
+#valid_button{
+    background-color: orange;
+    height: 26px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px grey;
+    border: none;
+}
+
+#invalid_button{
+    background-color:darkgrey;
+    height: 26px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px grey;
+    border: none;
+}
+
+#message_sent, #text, #form_n_button{
+    margin-left: 10%;
+}
