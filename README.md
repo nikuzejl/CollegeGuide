@@ -10,8 +10,6 @@ To-do
 Google analytics
 https://medium.com/@jefferson.bc/angular-tracking-page-views-with-google-analytics-8aa790581d4b
 
-Icon
-
 Auto reroute to new link
 ------------------------
   <head>
