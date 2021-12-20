@@ -11,6 +11,16 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { HttpClientModule} from '@angular/common/http';
 import { MatInputModule } from '@angular/material/input';
+import { ConfirmationComponent } from './components/confirmation/confirmation.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule} from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import { ContactComponent } from './components/contact/contact.component';
+import { GeneralInfoComponent } from './components/general-info/general-info.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +28,10 @@ import { MatInputModule } from '@angular/material/input';
     UndergradComponent,
     GradComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ConfirmationComponent,
+    ContactComponent,
+    GeneralInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +40,15 @@ import { MatInputModule } from '@angular/material/input';
     MatFormFieldModule,
     NoopAnimationsModule,
     MatInputModule,
-    HttpClientModule
+    HttpClientModule,
+
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatSidenavModule,
+    MatListModule,
+    MatButtonModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,19 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  selector: 'app-contact',
+  templateUrl: './contact.component.html',
+  styleUrls: ['./contact.component.css']
 })
-export class FooterComponent {
+export class ContactComponent implements OnInit {
+
   // contact_title= "Contact us";
   // subject= new FormControl();
   // message= new FormControl();
   // sent_message:boolean = false;
 
   clickedContact = false;
+  constructor() { }
 
-  constructor(){}
+  ngOnInit(): void {
+  }
 
   toggleClick(){
     this.clickedContact = this.clickedContact ? false : true;

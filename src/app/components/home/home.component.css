@@ -1,27 +1,28 @@
-.container{
-    font-family: Verdana;
-    font-weight: 500;
-    line-height: 1.6em;
+@media (min-width:480px){
+    .title{
+        display: flex;
+        color:white;
+        /* color: rgb(41, 147, 235); */
+    }
+    .subtitle{
+        width: 25%;
+        background-color: rgb(59, 149, 190);
+    }
+
+    a{
+        font-size: 1em;
+    }
 }
 
-.degrees{
-    display: flex;
-    margin-top: 20px;
-}
-
-.degree{
-    border-radius: 8px;
-    height: 90px;
-    margin-left: 2%;
-    width: 46%;
-    background-color: rgb(59, 149, 190);
-    display: flex;
-}
-
-.text{
-    margin: auto;
+.title{
     color:white;
-    font-size: 1.5em;
-    font-weight: bold;
-    border-radius: 10px;  
+}
+
+.subtitle{
+    background-color: rgb(59, 149, 190);
+    text-align: center;
+}
+
+.container{
+    margin: 0 5%;
 }

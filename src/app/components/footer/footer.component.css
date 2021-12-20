@@ -1,25 +1,38 @@
-.container{
-    margin: 0%;
-    background-color: black;
-    color:white;
+#contact_title{
+font-size: 1.5em;
+font-weight: bold;
+color: rgb(41, 147, 235);
+
+background: linear-gradient(45deg, #8ad2de 25%, transparent 25%), linear-gradient(315deg, #8ad2de 25%, transparent 25%) ,linear-gradient(45deg, transparent 24%,#41bfd3 25%, #41bfd3 30%, transparent 31%, transparent 39%,#41bfd3 40%, #41bfd3 45%, transparent 45%),linear-gradient(315deg, transparent 24%,#41bfd3 25%, #41bfd3 30%, transparent 31%, transparent 39%,#41bfd3 40%, #41bfd3 45%, transparent 45%);
+background-size: 1em 1em;
+background-color: #8ad2de;
+opacity: 0.15
+
 }
 
-#valid_button{
+
+/* background-color: #337571;
+opacity: 0.4;
+background-image: linear-gradient(45deg, #5eb1dd 50%, #337571 50%);
+background-size: 4px 4px; */
+
+#email{
+   width: 20%;
+   border-color:rgb(140, 188, 226)
+}
+
+#message{
+    width: 40%;
+    height: 50px;
+    margin-top: 10px;
+    border-color:rgb(140, 188, 226)
+}
+
+button{
     background-color: orange;
     height: 26px;
     border-radius: 12px;
     box-shadow: 2px 3px 4px grey;
-    border: none;
-}
-
-#invalid_button{
-    background-color:darkgrey;
-    height: 26px;
-    border-radius: 12px;
-    box-shadow: 2px 3px 4px grey;
-    border: none;
-}
-
-#message_sent, #text, #form_n_button{
-    margin-left: 10%;
+    border-style: none;
+    margin: 10px;
 }
