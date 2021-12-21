@@ -4,11 +4,10 @@ import { ConfirmationComponent } from './components/confirmation/confirmation.co
 import { ContactComponent } from './components/contact/contact.component';
 import { GeneralInfoComponent } from './components/general-info/general-info.component';
 import { GradComponent } from './components/grad/grad.component';
-import { HomeComponent } from './components/home/home.component';
 import { UndergradComponent } from './components/undergrad/undergrad.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent},
+  { path: '', component: GeneralInfoComponent},
   { path: 'grad', component: GradComponent },
   { path: 'undergrad', component: UndergradComponent },
   { path: 'confirmation', component: ConfirmationComponent},

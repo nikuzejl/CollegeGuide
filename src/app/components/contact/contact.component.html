@@ -5,13 +5,17 @@
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_subject" value="Email from site visitors">
         
-        <div>
-            <input id="email" type="email" name="email" placeholder="Your email address" required>
-        </div>
-
-        <div>
-            <textarea id="message" type="text" name="message" placeholder="Write your message here" required></textarea>
-        </div>
+        <span class="emails" >
+            <div>
+                <input id="email" type="email" name="email" placeholder="Your email address" required>
+            </div>
+        </span>
+                
+        <span class="messages" >
+            <div>
+                <textarea id="message" type="text" name="message" placeholder="Write your message here" required></textarea>
+            </div>
+        </span>
 
         <input type="hidden" name="_next" value="https://nikuzejl.github.io/thankyoupage/">
         <button type="submit"> Send</button>
