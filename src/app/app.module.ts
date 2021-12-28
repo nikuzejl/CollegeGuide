@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { UndergradComponent } from './components/undergrad/undergrad.component';
 import { GradComponent } from './components/grad/grad.component';
 import { HomeComponent } from './components/home/home.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -28,7 +27,6 @@ import { GeneralInfoComponent } from './components/general-info/general-info.com
     UndergradComponent,
     GradComponent,
     HomeComponent,
-    FooterComponent,
     ConfirmationComponent,
     ContactComponent,
     GeneralInfoComponent

@@ -2,11 +2,13 @@
     .title{
         display: flex;
         color:white;
-        /* color: rgb(41, 147, 235); */
     }
     .subtitle{
+        margin-top: 14px;
         width: 25%;
-        background-color: rgb(59, 149, 190);
+        background-color: #74b5da;
+        opacity: 0.6;
+        background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #74b5da 10px ), repeating-linear-gradient( #4d97e355, #4d97e3 );
     }
 
     a{
@@ -15,14 +17,21 @@
 }
 
 .title{
-    color:white;
+    color:black;
+    font-weight: bolder;
 }
 
 .subtitle{
-    background-color: rgb(59, 149, 190);
     text-align: center;
+    background-color: #74b5da;
+    opacity: 0.6;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #74b5da 10px ), repeating-linear-gradient( #4d97e355, #4d97e3 );
 }
 
 .container{
-    margin: 0 5%;
+    margin: 0% 5%;
+}
+
+.active_window{
+    background: green;
 }

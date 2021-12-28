@@ -9,7 +9,5 @@ export class UndergradComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }

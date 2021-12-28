@@ -9,7 +9,6 @@ export class GradComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
