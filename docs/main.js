@@ -297,7 +297,7 @@ GeneralInfoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " Applying to university in a foreign country can be daunting. However, thousands of international students around the world make it every year. You too can make it! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, " Applying to university in a foreign country can be daunting... However, thousands of international students around the world make it every year. You too can make it! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " This site contains very basic information about the American university application process, for undergraduate studies (");
