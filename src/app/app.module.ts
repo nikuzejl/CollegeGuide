@@ -20,6 +20,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import { ContactComponent } from './components/contact/contact.component';
 import { GeneralInfoComponent } from './components/general-info/general-info.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,10 @@ import { GeneralInfoComponent } from './components/general-info/general-info.com
     MatButtonModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
+  ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
