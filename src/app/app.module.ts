@@ -21,6 +21,7 @@ import {MatListModule} from '@angular/material/list';
 import { ContactComponent } from './components/contact/contact.component';
 import { GeneralInfoComponent } from './components/general-info/general-info.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { OtherOpportunitiesComponent } from './other-opportunities/other-opportunities.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     HomeComponent,
     ConfirmationComponent,
     ContactComponent,
-    GeneralInfoComponent
+    GeneralInfoComponent,
+    OtherOpportunitiesComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,6 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
     NoopAnimationsModule,
     MatInputModule,
     HttpClientModule,
-
     BrowserAnimationsModule,
     MatToolbarModule,
     MatCardModule,

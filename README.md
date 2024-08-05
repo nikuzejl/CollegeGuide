@@ -1,24 +1,24 @@
-# gh-pages
+# Updating GitHub Page
+`ng build --configuration production --base-href "https://nikuzejl.github.io/CollegeGuide/"`
 
-ng build --prod --base-href "https://nikuzejl.github.io/CollegeGuide/"
+`git add .`
 
-git add .
+`git commit -m "new changes"`
 
-git commit -m "new changes"
-
-git push
-
-# Angular core and CLI and update
+`git push --force`
 
 # Docker
-Start a container: docker container start name
-Stop a container: docker container stop name
-Delete: docker container rm stop name
+Start a container: `docker container start name`
 
-docker container ls -a
+Stop a container: `docker container stop name`
 
-path used for docker building:
-in angular.js
+Delete: `docker container rm stop name`
+
+List containers: `docker container ls -a`
+
+Run docker image: `docker run -p 8000:8080 image-name`
+
+Docker build path in angular.js:
           "options": {
             "outputPath": "dist/college-guide",
              ...
@@ -26,4 +26,4 @@ in angular.js
 
 Does github pages require /docs?
 
-docker run -p 8000:8080 image-name
+
