@@ -1,27 +1,67 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css']
+  styleUrls: ['./contact.component.css'],
 })
-export class ContactComponent implements OnInit {
 
-  // contact_title= "Contact us";
-  // subject= new FormControl();
-  // message= new FormControl();
-  // sent_message:boolean = false;
+export class ContactComponent {
+  MY_EMAIL = 'nikuzejl@gmail.com'
+  FORM_URL = 'https://formsubmit.co/'
+  SUBJECT = 'New message from the UniGuide website';
+  name = '';
+  email = '';
+  message = '';
+  successMessage = '';
 
-  clickedContact = false;
-  constructor() { }
+  @ViewChild('form') form!: NgForm;
 
-  ngOnInit(): void {
+  constructor(private http: HttpClient) {}
+
+  submitForm() {
+    if (!this.name || !this.email || !this.message) {
+      return;
+    }
+
+    const formData = {
+      name: this.name,
+      email: this.email,
+      message: this.message,
+      _captcha: 'false',
+      _subject: this.SUBJECT
+    };
+
+    const urlEncodedData = this.toUrlEncoded(formData);
+
+    this.http.post(this.FORM_URL + this.MY_EMAIL, urlEncodedData, {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      responseType: 'text',
+    }).subscribe({
+      next: () => {
+        this.successMessage = `Thanks ${this.name}! Your message was sent. I will get back to you as soon as possible.`;
+        this.form.resetForm();
+        setTimeout(() => {
+          this.successMessage = '';
+        }, 15000);
+      },
+      error: (err) => {
+        console.error(err);
+        this.successMessage = 'Something went wrong. Please try again.';
+        setTimeout(() => {
+          this.successMessage = '';
+        }, 4000);
+      },
+    });
   }
 
-  toggleClick(){
-    this.clickedContact = this.clickedContact ? false : true;
+  private toUrlEncoded(obj: Record<string, any>): string {
+    return Object.entries(obj)
+      .map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`)
+      .join('&');
   }
-  // isValidInput(){   
-  //   return !(this.subject.invalid || this.message.invalid)
-  // }
 }

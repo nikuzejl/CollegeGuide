@@ -16,12 +16,14 @@ import { MatButtonModule} from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatListModule} from '@angular/material/list';
+import { MatSidenavModule} from '@angular/material/sidenav';
+import { MatListModule} from '@angular/material/list';
 import { ContactComponent } from './components/contact/contact.component';
 import { GeneralInfoComponent } from './components/general-info/general-info.component';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { OtherOpportunitiesComponent } from './other-opportunities/other-opportunities.component';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { OtherOpportunitiesComponent } from './other-opportunities/other-opportu
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     ReactiveFormsModule,
     MatFormFieldModule,
     NoopAnimationsModule,

@@ -1,26 +1,47 @@
-<!-- onsubmit="return false" -->
-<br>
 <div class="container">
-    If you want to give me feedback or ask questions, you can contact me here
-    <br><br>
-    <form target="_blank" action="https://formsubmit.co/nikuzejl@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_subject" value="Email from site visitors">
-        
-        <span class="emails" >
-            <div>
-                <input id="email" type="email" name="email" placeholder="Your email address" required>
-            </div>
-        </span>
-                
-        <span class="messages" >
-            <div>
-                <textarea id="message" type="text" name="message" placeholder="Write your message here" required></textarea>
-            </div>
-        </span>
+  <h2>You can contact me here</h2>
 
-        <input type="hidden" name="_next" value="https://nikuzejl.github.io/thankyoupage/">
-        <button type="submit"> Send</button>
-    </form>
+    <div *ngIf="successMessage" class="alert success-alert">
+    {{ successMessage }}
+  </div>
+
+  <form (ngSubmit)="submitForm()" #form="ngForm">
+    <input
+      type="text"
+      name="name"
+      [(ngModel)]="name"
+      placeholder="Your name"
+      required
+      #nameField="ngModel"
+    />
+    <div class="error" *ngIf="nameField.invalid && nameField.touched">
+      Name is required
+    </div>
+
+    <input
+      type="email"
+      name="email"
+      [(ngModel)]="email"
+      placeholder="Your email address"
+      required
+      #emailField="ngModel"
+    />
+    <div class="error" *ngIf="emailField.invalid && emailField.touched">
+      A valid email is required
+    </div>
+
+    <textarea
+      name="message"
+      [(ngModel)]="message"
+      placeholder="Write your message here"
+      required
+      #messageField="ngModel"
+    ></textarea>
+    <div class="error" *ngIf="messageField.invalid && messageField.touched">
+      Message is required
+    </div>
+
+    <button type="submit" [disabled]="form.invalid">Send</button>
+  </form>
 </div>
 
