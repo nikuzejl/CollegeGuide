@@ -1,5 +1,5 @@
 # Updating GitHub Page
-`ng build --configuration production --base-href "https://nikuzejl.github.io/CollegeGuide/"`  
+`ng build --configuration production --base-href "https://nikuzejl.github.io/uni-guide/"`  
 `git add .`  
 `git commit -m "cosmetic improvements changes"`  
 `git push --force`  
@@ -13,7 +13,7 @@ Run docker image: `docker run -p 8000:8080 image-name`
 
 Docker build path in angular.js:
           "options": {
-            "outputPath": "dist/college-guide",
+            "outputPath": "dist/uni-guide",
              ...
             }
 
