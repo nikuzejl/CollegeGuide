@@ -4,6 +4,12 @@
 `git commit -m "cosmetic improvements changes"`  
 `git push --force`  
 
+## Future improvements
+Stick nav bar  
+Titles for different sections  
+Bigger font size in nav bar  
+Add more text and sections  
+
 # Docker
 Start a container: `docker container start name`  
 Stop a container: `docker container stop name`  

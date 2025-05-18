@@ -11,7 +11,6 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./contact.component.css'],
 })
 
-
 export class ContactComponent {
   APP_NAME = 'UniGuide';
   MY_EMAIL = 'nikuzejl@gmail.com'
