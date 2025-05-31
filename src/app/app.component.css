@@ -1,13 +1,28 @@
 .app-container {
-  /* fixed margins, centered up to a max width */
   max-width: 1200px;
-  margin: 0 auto;      /* centers container */
-  padding: 0 2rem;     /* 2rem left + right padding */
+  margin: 0 auto;
+  padding: 0 2rem; 
 }
 
-/* Optional: make those paddings smaller on narrower screens */
 @media (max-width: 768px) {
   .app-container {
     padding: 0 1rem;
   }
 }
+
+app-header, app-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+app-navbar {
+  top: 60px;
+}
+
+.app-container {
+  padding-top: 120px;
+}
+
