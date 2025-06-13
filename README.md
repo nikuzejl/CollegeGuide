@@ -1,7 +1,7 @@
 # Updating GitHub Page
 `ng build --configuration production --base-href "https://nikuzejl.github.io/uni-guide/"`  
 `git add .`  
-`git commit -m "UX improvements"`  
+`git commit -m "some improvements"`  
 `git push --force`  
 
 ## Future improvements
