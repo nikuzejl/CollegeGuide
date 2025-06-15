@@ -1,63 +1,68 @@
-# Applying to University in the U.S.
+### Introduction
 
-Applying to university in a foreign country can be daunting. However, thousands of international students succeed every year — and you can too!
+Applying to a university in a foreign country can be daunting. However, thousands of international students succeed every year — and you can too!
 
-This site provides basic information about the American university application process for both undergraduate (*baccalauréat ou licence*) and graduate (*master ou doctorat*) studies.
+This site provides a basic overview of the university application process in the U.S. and Canada for both undergraduate and graduate studies. It is a simplified guide and **not** exhaustive. For more detailed information, further research will be necessary.
 
-## About the American Higher Education System
-
-In the U.S., bachelor's programs typically last four years, master's programs one to two years, and Ph.D. programs four to six years.
-
-Unlike many other countries, you cannot enter medical school directly from high school. First, you must earn a four-year bachelor's degree in any major (*faculté*) before applying to medical school, which then lasts four years. The same process applies to dental, veterinary, and law schools.
-
-In the U.S., students are not required to declare a major until their second year of university. It’s perfectly fine to start university undecided. You can even pursue multiple majors or minors at no extra cost.
+This guide is written with Burundian students in mind, but students from other countries may also find it helpful. It also includes some information about other immigration programs that may be of interest.
 
 
+### About the American Higher Education System
 
-## Differences and Similarities: University, College, and Community College
+In the U.S. and Canada:
+- **Bachelor’s programs** typically last four years.
+- **Master’s programs** usually take one to two years.
+- **Ph.D. programs** often take four to six years.
 
-- **University**: Offers both undergraduate (bachelor's) and graduate (master's and/or Ph.D.) degrees.
-- **College**: Offers only undergraduate degrees. You can earn a bachelor’s degree at either a college or a university. In the U.S., the terms "college" and "university" are often used interchangeably.
-- **Community College**: Offers 2-year associate degrees. You can later transfer to a college or university to pursue a bachelor's degree or higher.
+In the U.S., students are not required to declare a major until their second year of university. It’s perfectly acceptable to begin university undecided. In fact, you can often pursue multiple majors or minors without additional tuition costs.
 
-In the U.S., the terms "college" and "university" are often used interchangeably, and their tuition costs are usually similar.
-
-
-
-## Financial Aid
-
-American universities are known for being expensive. Unless you are wealthy or willing to take out loans, you’ll likely need financial aid.
-
-Make sure the universities you're applying to offer scholarships to international students. Admission is the first critical step — most schools will only consider you for financial aid once you've been admitted.
-
-Many international students receive need-based scholarships.
+If you're interested in medical school, law school, veterinary school, or other specialized fields, check out [this page for more information](/uni-guide/special-fields/).
 
 
+### Financial Aid
 
-## Where Should You Start the Application Process?
+Higher education in North America can be expensive. Unless you are financially well-off, you’ll likely need financial aid. Be sure to apply to universities that offer scholarships to **international students**.
 
-- Research universities that offer majors you're interested in.
-- Review the university's website for application requirements, especially standardized test and language requirements for international students.
-- If you need a scholarship, check if the university offers aid to international students.
-- Prepare for and take standardized tests (e.g., SAT, GRE, TOEFL).
-- Gather all necessary documents.
-- Submit your applications and stay hopeful!
+Admission is the first critical step — most schools will only consider you for financial aid after you’ve been admitted.
 
-To improve your chances, apply to multiple universities. Don’t hesitate to contact admissions offices or talk to current students or alumni for advice.
+Many international students receive **need-based** scholarships and other forms of financial aid.
 
 
+### Visa Application
 
-## Learn More
+Once you're admitted to a university and have secured proof of funding and other required documents, you can apply for a **student visa**.
 
-Click below to learn more about:
-
-- [Graduate applications](/grad)
-- [Undergraduate applications](/undergrad)
-
+- Learn more about the **U.S. student visa** [here](#).
+- Learn more about the **Canadian study permit** [here](#).
 
 
-## Some Resources
+### Where Should You Start?
 
-- [College readiness (WikiHow)](https://www.wikihow.com/Prepare-for-College-in-High-School)
+Here’s a step-by-step approach to get started:
+
+- Research universities that offer the majors you're interested in.
+- Check each university’s website for application requirements, especially standardized test and language requirements.
+- If English is not your native language, and you're applying to an English-speaking school, you’ll likely need an English proficiency test (e.g., **Duolingo English Test**, **TOEFL**, **IELTS**).
+- If you need a scholarship, verify whether the university offers aid to international students.
+- Prepare for and take required standardized tests (e.g., **SAT**, **GRE**, **TOEFL**).
+- Gather all necessary documents (e.g., transcripts, recommendation letters, personal statements).
+- Submit your university applications — and stay hopeful!
+- To increase your chances, apply to multiple universities.
+- Reach out to admissions offices or connect with current students or alumni for insights and support.
+- Once admitted, apply for a visa.
+- Start preparing for your new academic journey!
+
+The whole process can seem lengthy and challenging—it’s not easy. Luckily, you don’t have to do it alone. There are programs that can help you learn English, pass tests, and support you throughout the entire journey. You can [find them here.](/uni-guide/college-readiness-programs/)
+
+### Learn More
+
+Click below to explore more detailed guides:
+
+- [Graduate Applications](/uni-guide/grad/)
+- [Undergraduate Applications](/uni-guide/undergrad/)
+
+
+### Some Helpful Resources
+
+- [College Readiness (WikiHow)](https://www.wikihow.com/Prepare-for-College-in-High-School)  
 - [What is Liberal Arts Education? (TopUniversities)](https://www.topuniversities.com/blog/what-liberal-arts-education)
-- [FAQs about Community Colleges (US News)](https://www.usnews.com/education/community-colleges/articles/2015/02/06/frequently-asked-questions-community-college)

@@ -5,11 +5,15 @@ theme:
   logo: images/university.png
   palette: 
     - scheme: default
+      primary: blue
+      accent: pink 
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     - scheme: slate
+      primary: blue
+      accent: pink 
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -19,7 +23,6 @@ theme:
     - navigation.instant.preview
     - navigation.progress
     - navigation.tracking
-    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
 
@@ -27,7 +30,14 @@ nav:
   - General Info: index.md
   - Undergraduate: undergrad.md
   - Graduate: grad.md
-  - Other Opportunities: others.md
+  - English Tests: english-tests.md
+  - Other Opportunities: 
+      - US Student Visa: others/usa-student-visa.md
+      - Canada Study Permit: others/canada-study-permit.md
+      - Various Scholarships: others/various-scholarships.md
+      - Express Entry Canada: others/other-immigration-programs.md
+      - Study in France: others/france.md
+      - Special fields: others/special-fields.md
   - Contact: contact.md
 
 extra:
